@@ -1,0 +1,71 @@
+/* SinglePredictionResult.css */
+
+.result-container {
+  padding: 24px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  max-width: 650px;
+  margin: 32px auto;
+}
+
+.result-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1e3a8a; /* blue-800 */
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.result-text {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.result-text span {
+  font-weight: 600;
+}
+
+.high-risk {
+  color: #dc2626; /* red-600 */
+  font-weight: bold;
+}
+
+.low-risk {
+  color: #16a34a; /* green-600 */
+  font-weight: bold;
+}
+
+.graph-section {
+  margin-top: 24px;
+}
+
+.graph-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #374151; /* gray-800 */
+}
+
+.graph-img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.result-button {
+  display: inline-block;
+  margin-top: 24px;
+  background-color: #2563eb; /* blue-600 */
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.result-button:hover {
+  background-color: #1d4ed8; /* darker blue */
+}

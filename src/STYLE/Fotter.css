@@ -1,0 +1,85 @@
+/* Parent container */
+#fotterparent {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(31, 41, 54); /* dark background */
+  padding: 40px 20px;
+}
+
+#fotter1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+  position: relative;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+#fotter1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(174, 204, 248);
+  opacity: 0.4; /* subtle line */
+}
+
+#logodesp h2,
+#quicklinks h2,
+#support h2,
+#followus h2 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+
+#logodesp p {
+  color: #aaa;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 280px;
+}
+
+#navs1 {
+  list-style: none;
+  padding: 0;
+}
+
+#navs1 li {
+  margin: 6px 0;
+}
+
+.atag {
+  text-decoration: none;
+  color: #bbb;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.atag:hover {
+  color: rgb(174, 204, 248);
+}
+
+#fotter2 p {
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.fottericon
+{
+    height: 25px;
+    margin: 10px;
+    opacity: 2;
+      filter: grayscale(100%);
+  transition: filter 200ms ease-in-out;
+}
+
+.fottericon:hover
+{
+   filter: grayscale(0%); 
+}

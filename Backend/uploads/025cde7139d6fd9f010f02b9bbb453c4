@@ -1,0 +1,101 @@
+PatientID,Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope
+1,36,Female,Non-anginal Pain,142,235,No,LV Hypertrophy,167,No,5.3,Up
+2,32,Female,Typical Angina,114,162,No,LV Hypertrophy,120,Yes,4.5,Flat
+3,48,Female,Typical Angina,90,160,No,ST-T Abnormality,120,Yes,4.4,Flat
+4,49,Female,Asymptomatic,134,266,Yes,Normal,117,No,2.7,Up
+5,79,Female,Non-anginal Pain,113,222,Yes,LV Hypertrophy,135,Yes,5.8,Flat
+6,40,Female,Non-anginal Pain,154,172,Yes,Normal,152,Yes,0.5,Down
+7,49,Female,Typical Angina,140,274,No,Normal,140,Yes,1.1,Up
+8,69,Female,Non-anginal Pain,121,214,Yes,LV Hypertrophy,98,No,1.2,Flat
+9,58,Female,Atypical Angina,110,291,Yes,ST-T Abnormality,146,No,1.3,Flat
+10,49,Female,Atypical Angina,170,150,Yes,LV Hypertrophy,126,Yes,2.6,Up
+11,31,Female,Asymptomatic,100,278,Yes,Normal,161,Yes,1.1,Flat
+12,40,Male,Non-anginal Pain,179,231,No,ST-T Abnormality,160,Yes,5.9,Flat
+13,75,Female,Non-anginal Pain,156,227,Yes,ST-T Abnormality,123,No,5.0,Down
+14,76,Female,Non-anginal Pain,166,248,No,ST-T Abnormality,188,No,1.4,Down
+15,54,Male,Atypical Angina,139,214,No,ST-T Abnormality,135,Yes,5.5,Up
+16,73,Female,Typical Angina,172,159,No,ST-T Abnormality,155,No,4.6,Flat
+17,59,Female,Non-anginal Pain,151,265,Yes,LV Hypertrophy,183,Yes,4.9,Up
+18,37,Male,Typical Angina,180,261,Yes,LV Hypertrophy,157,Yes,1.0,Up
+19,40,Male,Atypical Angina,145,248,Yes,LV Hypertrophy,147,Yes,4.7,Down
+20,43,Female,Asymptomatic,119,246,No,Normal,191,Yes,3.7,Down
+21,57,Female,Typical Angina,177,292,Yes,Normal,178,Yes,4.6,Flat
+22,33,Female,Non-anginal Pain,158,216,Yes,LV Hypertrophy,181,Yes,3.7,Down
+23,48,Male,Asymptomatic,169,290,Yes,Normal,123,Yes,5.2,Up
+24,42,Female,Asymptomatic,91,233,No,LV Hypertrophy,177,Yes,0.8,Flat
+25,44,Female,Asymptomatic,107,214,No,ST-T Abnormality,96,Yes,2.5,Up
+26,57,Male,Typical Angina,119,202,Yes,ST-T Abnormality,182,No,3.5,Down
+27,74,Male,Atypical Angina,154,218,No,ST-T Abnormality,98,No,1.1,Flat
+28,68,Male,Typical Angina,174,251,No,LV Hypertrophy,198,Yes,2.9,Up
+29,67,Male,Typical Angina,133,221,No,ST-T Abnormality,178,No,0.4,Flat
+30,68,Female,Non-anginal Pain,129,212,Yes,LV Hypertrophy,130,Yes,0.5,Up
+31,42,Male,Non-anginal Pain,179,213,Yes,LV Hypertrophy,130,No,1.2,Down
+32,40,Male,Atypical Angina,132,209,Yes,ST-T Abnormality,175,No,2.8,Up
+33,51,Male,Typical Angina,117,199,No,Normal,138,Yes,4.9,Down
+34,54,Male,Typical Angina,118,197,Yes,Normal,109,Yes,1.6,Down
+35,66,Male,Typical Angina,168,247,Yes,LV Hypertrophy,185,No,2.9,Down
+36,30,Male,Non-anginal Pain,135,231,Yes,LV Hypertrophy,155,No,0.0,Flat
+37,71,Female,Atypical Angina,100,168,Yes,LV Hypertrophy,115,No,2.5,Down
+38,56,Female,Asymptomatic,118,167,Yes,Normal,171,No,0.9,Flat
+39,44,Female,Typical Angina,131,236,Yes,ST-T Abnormality,198,Yes,0.2,Down
+40,55,Female,Atypical Angina,90,253,Yes,Normal,149,No,0.5,Up
+41,63,Female,Atypical Angina,116,257,No,LV Hypertrophy,162,No,4.2,Flat
+42,44,Female,Non-anginal Pain,139,222,No,LV Hypertrophy,185,Yes,4.3,Down
+43,33,Female,Typical Angina,179,232,Yes,Normal,114,No,3.5,Flat
+44,66,Male,Typical Angina,115,190,Yes,LV Hypertrophy,112,No,3.3,Up
+45,76,Female,Non-anginal Pain,126,181,Yes,ST-T Abnormality,96,Yes,2.1,Flat
+46,56,Male,Typical Angina,161,244,Yes,LV Hypertrophy,191,Yes,1.3,Flat
+47,50,Female,Atypical Angina,108,229,No,ST-T Abnormality,132,No,4.7,Up
+48,52,Male,Asymptomatic,163,204,No,LV Hypertrophy,123,No,2.3,Up
+49,46,Male,Asymptomatic,107,197,No,Normal,177,Yes,1.6,Flat
+50,38,Male,Non-anginal Pain,106,153,No,LV Hypertrophy,164,Yes,4.3,Flat
+51,40,Male,Asymptomatic,128,217,No,Normal,98,Yes,3.3,Flat
+52,37,Male,Typical Angina,179,175,No,LV Hypertrophy,185,No,0.8,Down
+53,49,Male,Typical Angina,118,176,Yes,LV Hypertrophy,109,No,2.2,Flat
+54,58,Male,Non-anginal Pain,139,300,Yes,ST-T Abnormality,148,No,1.7,Up
+55,64,Female,Asymptomatic,159,212,Yes,LV Hypertrophy,135,Yes,0.8,Down
+56,59,Male,Typical Angina,115,282,No,LV Hypertrophy,185,No,5.4,Down
+57,36,Female,Non-anginal Pain,173,261,No,Normal,139,No,0.8,Down
+58,43,Male,Typical Angina,146,275,No,ST-T Abnormality,139,Yes,3.5,Down
+59,80,Female,Non-anginal Pain,151,192,Yes,ST-T Abnormality,103,No,3.1,Down
+60,73,Female,Asymptomatic,91,242,Yes,Normal,138,No,2.5,Down
+61,79,Male,Asymptomatic,170,238,Yes,Normal,141,Yes,0.8,Up
+62,60,Female,Non-anginal Pain,163,287,No,ST-T Abnormality,175,Yes,4.5,Flat
+63,78,Male,Non-anginal Pain,100,288,Yes,ST-T Abnormality,166,No,0.9,Up
+64,72,Male,Asymptomatic,153,180,Yes,Normal,91,No,3.4,Down
+65,37,Male,Non-anginal Pain,98,153,Yes,ST-T Abnormality,137,Yes,2.8,Down
+66,71,Female,Typical Angina,133,289,Yes,Normal,175,Yes,2.9,Down
+67,32,Male,Non-anginal Pain,180,272,No,Normal,173,No,4.3,Flat
+68,72,Male,Non-anginal Pain,116,284,No,ST-T Abnormality,182,Yes,1.8,Up
+69,32,Male,Atypical Angina,157,206,No,ST-T Abnormality,107,Yes,4.0,Up
+70,78,Female,Typical Angina,152,184,Yes,Normal,178,No,3.1,Flat
+71,31,Female,Atypical Angina,162,203,No,Normal,109,Yes,2.5,Flat
+72,78,Female,Asymptomatic,145,213,No,Normal,117,No,3.2,Flat
+73,57,Female,Typical Angina,122,179,No,LV Hypertrophy,96,No,5.1,Down
+74,68,Female,Asymptomatic,169,168,Yes,LV Hypertrophy,182,Yes,2.7,Down
+75,71,Male,Atypical Angina,102,267,Yes,LV Hypertrophy,132,No,5.2,Up
+76,31,Male,Atypical Angina,144,300,No,ST-T Abnormality,122,Yes,5.4,Down
+77,45,Male,Non-anginal Pain,99,209,No,ST-T Abnormality,93,No,3.4,Down
+78,47,Male,Asymptomatic,118,199,No,Normal,149,No,0.5,Flat
+79,47,Male,Asymptomatic,106,178,Yes,Normal,191,Yes,5.0,Flat
+80,70,Female,Typical Angina,159,291,Yes,Normal,126,No,3.0,Down
+81,35,Male,Non-anginal Pain,157,224,No,LV Hypertrophy,162,Yes,1.0,Up
+82,56,Female,Non-anginal Pain,160,207,No,Normal,145,Yes,1.6,Flat
+83,58,Female,Typical Angina,102,193,No,Normal,189,No,3.0,Flat
+84,60,Male,Typical Angina,135,163,No,ST-T Abnormality,147,No,3.6,Up
+85,46,Female,Atypical Angina,166,210,Yes,ST-T Abnormality,113,Yes,5.6,Flat
+86,38,Female,Atypical Angina,150,259,Yes,Normal,182,Yes,2.5,Up
+87,50,Female,Typical Angina,170,198,Yes,Normal,169,Yes,3.5,Flat
+88,45,Female,Non-anginal Pain,103,243,Yes,LV Hypertrophy,180,Yes,5.9,Flat
+89,54,Female,Atypical Angina,102,278,Yes,LV Hypertrophy,173,Yes,4.9,Flat
+90,38,Male,Typical Angina,92,208,Yes,LV Hypertrophy,121,No,2.4,Down
+91,78,Female,Atypical Angina,129,211,No,Normal,100,Yes,5.8,Up
+92,70,Female,Non-anginal Pain,108,285,Yes,LV Hypertrophy,122,Yes,0.8,Up
+93,80,Female,Asymptomatic,151,299,No,Normal,173,No,4.5,Flat
+94,40,Female,Atypical Angina,164,219,No,LV Hypertrophy,187,Yes,5.8,Flat
+95,45,Male,Non-anginal Pain,137,279,No,LV Hypertrophy,191,No,5.5,Down
+96,59,Male,Typical Angina,135,249,No,LV Hypertrophy,152,Yes,4.9,Flat
+97,78,Female,Asymptomatic,171,213,No,Normal,112,Yes,1.4,Down
+98,62,Male,Asymptomatic,163,221,Yes,Normal,160,No,0.7,Down
+99,55,Male,Non-anginal Pain,164,198,Yes,ST-T Abnormality,113,No,6.0,Down
+100,79,Female,Asymptomatic,173,151,No,ST-T Abnormality,153,No,4.0,Flat

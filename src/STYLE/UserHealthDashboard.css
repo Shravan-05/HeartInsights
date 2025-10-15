@@ -1,0 +1,113 @@
+#hd
+{
+   width: 90%;
+   max-width: 1200px;
+   margin: 0 auto;
+     margin-top: 40px;
+    position: relative;
+  z-index: -1;
+  height: 100vh;
+}
+#hdheader
+{
+  font-size:40px;
+}
+#hdinfo
+{
+  font-size: 20px;
+}
+#hd1
+{
+  display: flex;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#hd2
+{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 20px;
+}
+.hdcard
+{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 20px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   border-radius: 20px;
+         border: 1px solid #ccc;
+
+}
+.hdtop
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.hdtop1
+{
+  display: flex;
+  align-items: center;
+    gap: 10px;
+}
+.bar
+{
+  margin-top: 10px;
+}
+.percentage
+{
+  margin-top: 10px;
+
+}
+.hdtop1 img{
+  height: 40px;
+  width: 40px;
+}
+@media screen and (max-width: 800px) {
+#hdheader
+{
+  font-size:30px;
+}
+#hdinfo
+{
+  font-size: 20px;
+}
+}
+@media screen and (max-width: 500px) {
+  .hdtop1 img{
+  height: 30px;
+  width: 30px;
+}
+.hdcard
+{
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05),
+            0 8px 20px rgba(0, 0, 0, 0.08);    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    overflow: hidden;
+
+}
+.hdtop1
+{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#hd1
+{
+  text-align: center;
+}
+#hdheader
+{
+  font-size: 20px;
+}
+}
+

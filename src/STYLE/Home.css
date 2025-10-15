@@ -1,0 +1,504 @@
+#main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  position: relative;
+  z-index: -1;
+}
+#home {
+  overflow: hidden;
+}
+
+#main1 {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#type {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(31, 142, 233);
+  min-height: 130px; /* adjust based on your text size */
+  position: relative; /* needed for ::after */
+}
+
+#type::after {
+  content: "";
+  display: inline-block;
+  width: 0.15em;
+  height: 1.2em;
+  background-color: rgb(17, 123, 140);
+  margin-left: 2px;
+  animation: blink-caret 2s step-end infinite;
+  vertical-align: bottom;
+}
+
+@keyframes blink-caret {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+#main1 p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #444;
+  margin: 0 auto;
+}
+
+#wcu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+#wcu2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  padding: 10px;
+}
+#wcuheader {
+  font-size: 40px;
+  color: rgb(31, 142, 233);
+}
+#wcup {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.imgtag {
+  height: 30px;
+  width: 30px;
+  filter: brightness(0) invert(1);
+}
+.img {
+  background-color: #69a4f0;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 4px;
+}
+.wcucardsinfo {
+  text-align: center;
+  font-size: 19px;
+}
+.wcucardsheader {
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(31, 142, 233);
+}
+.wcucards1 {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.wcucards1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 10px;
+  width: 0%;
+  background-color: #69a4f0;
+  border-radius: 5px 5px 0 0;
+  transition: width 0.5s ease-in-out;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wcucards1:hover::after {
+  width: 100%;
+}
+
+.wcucards2 {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.wcucards2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 10px;
+  width: 0%;
+  background-color: #52e752;
+  border-radius: 5px 5px 0 0;
+  transition: width 0.5s ease-in-out;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wcucards2:hover::after {
+  width: 100%;
+}
+.wcucards3 {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.wcucards3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 10px;
+  width: 0%;
+  background-color: #f67da4;
+  border-radius: 5px 5px 0 0;
+  transition: width 0.5s ease-in-out;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wcucards3:hover::after {
+  width: 100%;
+}
+.wcucards4 {
+  width: 400px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.wcucards4::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 10px;
+  width: 0%;
+  background-color: #8481f1;
+  border-radius: 5px 5px 0 0;
+  transition: width 0.5s ease-in-out;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wcucards4:hover::after {
+  width: 100%;
+}
+.img2 {
+  background-color: #52e752;
+}
+.img3 {
+  background-color: #f67da4;
+  
+}
+.img4 {
+  background-color: #8481f1;
+}
+
+.wcucards1,
+.wcucards2,
+.wcucards3,
+.wcucards4 {
+  height: auto;
+}
+
+.imgtag3,.imgtag4
+{
+height:30px;
+width: 30px;
+}
+/* Wrap bubbles inside how-it-works */
+
+.how-it-works {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  position: relative; /* important so bubbles can be absolutely positioned */
+  overflow: hidden; /* prevents bubbles from overflowing */
+  background-color: rgb(204, 229, 255);
+}
+
+/* Bubbles container */
+.bubbles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none; /* so user can still click buttons */
+}
+
+/* Bubble base style */
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgb(100, 172, 255), transparent);
+  opacity: 0.8;
+}
+
+/* Custom bubble positions */
+.bubble1 {
+  width: 350px;
+  height: 350px;
+  top: 20px;
+  left: 200px;
+}
+
+.bubble2 {
+  width: 300px;
+  height: 300px;
+  bottom: 40px;
+  right: -120px;
+}
+
+.bubble3 {
+  width: 200px;
+  height: 200px;
+  top: 100px;
+  right: 500px;
+}
+
+/* Ensure steps/cards appear above bubbles */
+.steps,
+.step-card {
+  position: relative;
+  z-index: 1;
+}
+
+.how-it-works h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.how-it-works h2 span {
+  color: rgb(31, 142, 233); /* Tomato color for "Works" */
+}
+
+.how-it-works .subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.step-card {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  padding: 0 15px;
+  z-index: 1;
+}
+
+.circlesteps {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid rgb(31, 142, 233);
+  color: rgb(31, 142, 233);
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4199ff;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.step-card h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.step-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Creating the dotted line effect */
+.steps::before {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 5%;
+  right: 5%;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    #47acff 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: bottom;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+  z-index: 0;
+}
+
+/* Adjustments for a more precise line alignment */
+.step-card:first-child::before,
+.step-card:last-child::after {
+  content: none; /* Hide pseudo-elements for the first and last cards */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step-card {
+    margin-bottom: 40px;
+  }
+
+  .steps::before {
+    content: "";
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90%;
+    width: 2px;
+    background-image: linear-gradient(
+      to bottom,
+      #47acff 33%,
+      rgba(255, 255, 255, 0) 0%
+    );
+    background-size: 1px 10px;
+    background-repeat: repeat-y;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto; 
+  }
+  #type {
+    margin-top: 20px;
+    min-height: 80px;
+  }
+
+  #main1 {
+    width: 100%;
+    text-align: center;
+  }
+  #main2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  canvas {
+    height: 200px;
+    width: 200px;
+  }
+  #type {
+    font-size: 30px;
+  }
+  #wcuheader {
+    font-size: 30px;
+  }
+  #wcup {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  #type {
+    font-size: 25px;
+  }
+  #wcuheader {
+    font-size: 20px;
+  }
+  .wcucards1,
+  .wcucards2,
+  .wcucards3,
+  .wcucards4 {
+    height: 230px;
+  }
+  .img img {
+    height: 50px;
+    width: 50px;
+  }
+  .img {
+    height: 50px;
+  }
+  .wcucardsheader {
+    font-size: 16px;
+  }
+}

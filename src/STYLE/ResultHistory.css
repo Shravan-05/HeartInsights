@@ -1,0 +1,120 @@
+.history-container {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.history-section {
+  background: #f8faff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    overflow-x: auto;
+
+}
+
+.history-section h2 {
+  color: #2b93ff;
+  margin-bottom: 1rem;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  overflow-x: scroll;
+}
+
+.history-table th, .history-table td {
+  border: 1px solid #e0e6f0;
+  padding: 0.8rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.history-table th {
+  background: #eaf4ff;
+  font-weight: 600;
+  color: #2b93ff;
+}
+
+.positive {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.negative {
+  color: #e63946;
+  font-weight: 600;
+}
+
+.suggestion-box {
+  background: #eaf7ff;
+  border-left: 4px solid #2b93ff;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 1.5rem;
+}
+
+.chart-box {
+  background: #ffffff;
+  border: 1px dashed #2b93ff;
+  border-radius: 0.6rem;
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: linear-gradient(45deg, #2b93ff, #60afff);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(43, 147, 255, 0.3);
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  box-shadow: 0 0 20px #fff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .history-container {
+    grid-template-columns: 1fr;
+  }
+}

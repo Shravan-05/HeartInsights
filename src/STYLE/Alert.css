@@ -1,0 +1,52 @@
+  .success {
+    background-color: rgb(123, 219, 123);
+  }
+  .danger
+  {
+    background-color: rgb(221, 107, 107);
+  }
+
+  .alertmain {
+    width: 280px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    box-sizing: border-box;
+    z-index: 100;
+  }
+
+   #popupinfo {
+    padding-right: 35px;      
+    word-wrap: break-word;     
+    overflow-wrap: break-word; 
+    max-width: 100%;
+  }
+
+  #closepopup {
+    position: absolute;
+    width: 25px;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .alertmain.hide {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+  }
+
+  @media screen and (max-width: 400px) {
+    .alertmain {
+      width: 250px;
+      right: 5px;
+      font-size: 16px; 
+    }
+  }

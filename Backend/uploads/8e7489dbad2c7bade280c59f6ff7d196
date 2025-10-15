@@ -1,0 +1,5 @@
+PatientID,Age,Sex,ChestPainType,RestingBP,Cholesterol,FastingBS,RestingECG,MaxHR,ExerciseAngina,Oldpeak,ST_Slope
+41,45,Male,Typical Angina,120,240,No,Normal,150,No,1,Flat
+2,54,Female,Asymptomatic,130,260,Yes,ST-T Abnormality,140,Yes,2.3,Down
+3,62,Male,Non-anginal Pain,138,280,No,Normal,160,No,0.8,Up
+4,39,Female,Atypical Angina,110,200,No,LV Hypertrophy,170,No,1.5,Flat
