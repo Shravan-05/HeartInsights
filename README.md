@@ -1,12 +1,49 @@
-# React + Vite
+❤️ Heart Disease Prediction Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Heart Disease Prediction Platform is an advanced healthcare solution that helps patients and doctors predict and monitor heart disease risks in real-time using Machine Learning and modern web technologies.
 
-Currently, two official plugins are available:
+🌟 Key Features For Patients 🧑‍⚕️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Predict your heart disease risk by entering personal health data.
 
-## Expanding the ESLint configuration
+View nearby doctors for consultations using integrated Google Maps API 🗺️.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Access the latest predicted health data to monitor trends over time.
+
+Get guidance and suggestions from the AI agent 🤖 for better heart care.
+
+For Doctors 👨‍⚕️
+
+Predict heart disease risk for patients in bulk or individually.
+
+Analyze patient data efficiently for better decision-making.
+
+Access predictive insights to provide personalized recommendations.
+
+🛠️ Technologies Used
+
+Frontend: React + Vite for fast, modern UI ⚡
+
+Backend: Node.js + Express (MERN Stack) 🔧
+
+Database: MongoDB for secure data storage 🗄️
+
+Machine Learning: Python (scikit-learn, pandas, numpy) for accurate predictions 🧠
+
+APIs Integrated:
+
+Google Gemini API for AI guidance 🤖
+
+Google Maps API for locating nearby doctors 🗺️
+
+Kaggle datasets for high-quality training data 📊
+
+🔍 How It Works
+
+Patients enter their health details via the web interface.
+
+Data is processed by the ML model to predict heart disease risk.
+
+Doctors can input single or bulk patient data for predictions.
+
+Predictions and guidance are displayed in real-time for actionable insights.
